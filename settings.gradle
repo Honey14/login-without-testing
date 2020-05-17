@@ -1,0 +1,2 @@
+rootProject.name='LoginMobius'
+include ':app'
