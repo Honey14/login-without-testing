@@ -1,4 +1,7 @@
 package honey.loginmobius
 
-class LoginEffect {
+sealed class LoginEffect {
+
+    data class ValidateInput(val name: String, val password: String) : LoginEffect()
+
 }
